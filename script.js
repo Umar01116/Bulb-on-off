@@ -7,7 +7,6 @@
     }
     else{
         img.src = "bulb-turn-off.png";
-        img.classList.remove("bulb-on");
         button.innerText = "Turn on";
     }
    });
