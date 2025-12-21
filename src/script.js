@@ -1,12 +1,12 @@
  document.querySelector("button").addEventListener("click", function(){
     let img = document.querySelector("img");
     let button = document.querySelector("button");
-    if(img.src.includes("bulb-turn-off.png")){
-        img.src = "bulb-on-light.png";
+    if(img.src.includes("./assets/bulb-turn-off.png")){
+        img.src = "./assets/bulb-on-light.png";
         button.innerText = "Turn off";
     }
     else{
-        img.src = "bulb-turn-off.png";
+        img.src = "./assets/bulb-turn-off.png";
         button.innerText = "Turn on";
     }
    });
