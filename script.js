@@ -3,7 +3,6 @@
     let button = document.querySelector("button");
     if(img.src.includes("bulb-turn-off.png")){
         img.src = "bulb-on-light.png";
-        img.classList.add("bulb-on");
         button.innerText = "Turn off";
     }
     else{
