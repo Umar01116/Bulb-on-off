@@ -40,18 +40,6 @@ If off, it changes the image to on and updates the button text to "Turn off".
 
 If on, it changes the image back to off and updates the button text to "Turn on".
 
-document.querySelector("button").addEventListener("click", function(){
-    let img = document.querySelector("img");
-    let button = document.querySelector("button");
-    if(img.src.includes("bulb-turn-off.png")){
-        img.src = "./src/assets/bulb-on-light.png";
-        button.innerText = "Turn off";
-    } else {
-        img.src = "./src/assets/bulb-turn-off.png";
-        button.innerText = "Turn on";
-    }
-});
-
 🎨 Styling Highlights
 
 Centered image and button
